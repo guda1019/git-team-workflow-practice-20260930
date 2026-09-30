@@ -2,7 +2,8 @@
 import argparse
 
 def greeting(name="World"):
-    return f"Hello, {name}!"
+    normalized_name = name.strip() or "World"
+    return f"Hello, {normalized_name}!"
 
 def main():
     parser = argparse.ArgumentParser(description="Print a friendly greeting.")
