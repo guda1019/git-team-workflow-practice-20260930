@@ -8,9 +8,10 @@ Python 3.9 or newer; no third-party dependencies.
 
 ```sh
 python3 hello.py
+python3 hello.py --name Kirito
 ```
 
-Expected output: `Hello, World!`
+Expected output: `Hello, World!` and `Hello, Kirito!`, respectively.
 
 ## Workflow
 
